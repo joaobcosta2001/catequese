@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    background-color: rgb(10, 10, 10);
+    background-image: url(./background.jpg);
+    background-position: bottom;
+}
+
+.numberDiv{
+    color: white;
+    font-family: montserrat;
+    font-size: 12vw;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.numberTitleDiv{
+    color: white;
+    font-family: montserrat;
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+#timeDivs{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
+
+.timeDiv{
+    margin: 2vw;
+}
+
+#textDiv{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    color: white;
+    font-family: montserrat;
+    font-size: 8vw;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+
+}
